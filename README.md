@@ -1,5 +1,3 @@
-`#react-basics` `#assembler-institute-of-technology` `#master-in-software-engineering`
-
 # React E-commerce <!-- omit in toc -->
 
 A demo app to learn the basics of React and to create a shopping cart using hooks.
@@ -29,18 +27,10 @@ The app will be run by default in the following url: `http://localhost:3000/`
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/react-basics-hooks-shopping-cart.git
+$ git clone https://github.com/aCODEmy-JS/react-ecommerce.git
 ```
 
-## Instructions
-
-Throughout this week you will start creating the dashboard of your e-commerce. We will start this pill with the contents given during the class, and scalate as we get deepen into the information.
-
-The `main` branch of the future repos will have the favourite class solution of the previous pill so that you can get started with it, should you get stucked at any stage.
-
 ### Instructions
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/blob/main/src/img/repo/react-basics-classes-initial.png?raw=true' width='600'>
 
 Once you have installed the dependencies of the pill you will need to start using components in a way that is as reusable and modularized as possible.
 
@@ -58,8 +48,6 @@ As we go along the first lessons, each product should have the event listeners a
 
 #### Add to cart
 
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
-
 During the first stage, you will be required to have a counter for the quantity of products you would like to have directly on each product. Clicking the `Add to Cart` button should add the product that was clicked to the shopping cart.
 
 By default, the shopping cart will be empty.
@@ -67,8 +55,6 @@ By default, the shopping cart will be empty.
 The items in the cart should be able to render in the shopping cart when the `Add to Cart` button is clicked to add products to the cart. You can set any default items at the start.
 
 #### Shopping cart
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
 
 Once a product has been added to the cart you should be able to:
 
@@ -84,8 +70,6 @@ You should use React to handle the state management in the app. You cannot use a
 ## Extra steps 💯
 
 Once you have finished the initial part of the pill you should implement the following steps to improve your skills:
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
 
 - You should check if the cart item has already been added to the cart to only update the quantity instead of adding it again. You should stablish a quantity limit for each product that could depend upon the stock you stablish on your `products.js` data.
 - Store the items in local storage and load them if the page is reloaded so that the cart items are not lost of page refresh
