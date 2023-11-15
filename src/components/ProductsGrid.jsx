@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp, faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import styles from "./ProductsGrid.module.css";
 
 export const ProductsGrid = ({ products, cart, setCart }) => {
+  const [cartVisible, setCartVisible] = useState(false);
   // Creamos un estado para manejar el contador de cada producto
   const addToCart = (productId) => {
     const foundItem = cart.find((item) => {
@@ -24,6 +25,7 @@ export const ProductsGrid = ({ products, cart, setCart }) => {
         { id: productId, quantity: foundItem.quantity + 1 },
       ]);
     }
+    setCartVisible(true);
   };
   console.log(cart);
 
